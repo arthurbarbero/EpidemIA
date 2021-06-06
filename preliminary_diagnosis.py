@@ -6,7 +6,7 @@ class preliminary_diagnosis():
         self.all_diseases = diseases
         
         
-    def bm25_weight(data, K1=1, B=0.3):
+    def bm25_weight(self, data, K1=1, B=0.3):
         """ Weighs each row of the matrix data by BM25 weighting """
         # calculate idf per term (symptom)
         N = float(data.shape[0])
@@ -49,7 +49,7 @@ class preliminary_diagnosis():
         
         self.symptom_count = data.groupby('symptom').size()
         
-        Ur, Si, VTr = svds(bm25_weight(self.matrix), k=100)
+        Ur, Si, VTr = svds(self.bm25_weight(self.matrix), k=100)
         VTr = pd.DataFrame(VTr)
         
         self.dataset_result = pd.DataFrame(cosine_similarity(Ur,VTr.T), columns=self.symptom_count.index, index=list(self.sum_disease.index)) 

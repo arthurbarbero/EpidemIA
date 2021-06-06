@@ -5169,19 +5169,19 @@
 272;191;2;Skin bumps;Contusion bruise, ecchymosis
 272;877;2;Skin bumps;Acne pimples
 272;920;2;Skin bumps;Scabies skin disease caused by mites
+272;1170;2;Skin bumps;Viral exanthem rash from viral infection
+272;999;2;Skin bumps;Folliculitis hair follicle infection
+272;188;2;Skin bumps;Contact dermatitis contact skin irritation
+272;431;1;Skin bumps;Lipoma benign fatty tumor
+272;684;1;Skin bumps;Sebaceous cyst sac under the skin
 272;796;0;Skin bumps;Urticaria hives
 272;930;0;Skin bumps;Carbuncle
 272;189;0;Skin bumps;Poison ivy poison oak, poison sumac
 272;707;0;Skin bumps;Skin abscess collection of pus
-272;431;1;Skin bumps;Lipoma benign fatty tumor
-272;1170;2;Skin bumps;Viral exanthem rash from viral infection
-272;999;2;Skin bumps;Folliculitis hair follicle infection
-272;684;1;Skin bumps;Sebaceous cyst sac under the skin
 272;1184;0;Skin bumps;Actinic keratosis AK, skin growth
 272;1186;0;Skin bumps;Molluscum contagiosum
 272;899;0;Skin bumps;Keratosis pilaris common skin condition
 272;1421;0;Skin bumps;Keloid overgrown scar
-272;188;2;Skin bumps;Contact dermatitis contact skin irritation
 273;69;3;Congestion in chest or lungs;Atypical pneumonia lung infection
 273;115;2;Congestion in chest or lungs;Bronchitis bronchial tube infection
 273;114;1;Congestion in chest or lungs;Bronchiolitis bronchial tube inflammation
@@ -5567,3 +5567,7 @@
 306;205;2;High blood sugar;Dehydration
 306;777;1;High blood sugar;Trauma
 306;1148;0;High blood sugar;Diabetic nephropathy diabetes and kidney disease
+35;1098;1;Foot pain;Heel spur
+35;1098;1;Foot pain;Heel spur
+35;1098;1;Foot pain;Heel spur
+35;1098;1;Foot pain;Heel spur
